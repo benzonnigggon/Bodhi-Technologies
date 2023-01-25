@@ -121,20 +121,25 @@ a.white {
 .btn-solid-reg {
     display: inline-block;
     padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-    border: 0.125rem solid #070058;
+    border: 0.125rem solid #9bdd5b;
     border-radius: 2rem;
-    background-color: #070058;
-    color: #fff;
+    background-color: #9bdd5b;
+    color: #070058;
     font: 700 0.875rem/0 "Open Sans", sans-serif;
     text-decoration: none;
     transition: all 0.2s;
 }
 
 .btn-solid-reg:hover {
-    background-color: #0093d0;
-    color: #fff;
+    background-color: #fff;
+    color: #070058;
     text-decoration: none;
-    border: 0.125rem solid #0093d0;
+    border: 0.125rem solid #fff;
+}
+
+.text-container span {
+    text-shadow: 0 -1px #9ee15d, 0 1px #9ee15d, 1px 0px #9ee15d, -1px 0px #9ee15d;
+    color: #000;
 }
 
 .btn-solid-lg {
