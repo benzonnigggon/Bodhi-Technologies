@@ -398,6 +398,14 @@ screen and (-ms-high-contrast: none) {
     color: #777937;
 }
 
+.career-card {
+    padding: 20px 0 !important;
+}
+
+.career-card .card-title {
+    text-align: center;
+}
+
 
 /* Form Success And Error Message Formatting */
 
