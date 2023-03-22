@@ -380,7 +380,18 @@ screen and (-ms-high-contrast: none) {
     }
 }
 
-.form-control-submit-button {
+.banner-title-position {
+    position: absolute;
+    left: 10%;
+}
+
+@media(min-width:1300px) {
+    .header .header-content img {
+        height: 100vh;
+    }
+}
+
+.header .header .form-control-submit-button {
     display: inline-block;
     width: 100%;
     height: 3.125rem;
@@ -878,7 +889,14 @@ screen and (-ms-high-contrast: none) {
 }
 
 .header .text-container {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
+    margin-top: -50%;
+}
+
+@media (max-width:425px) {
+    .header {
+        margin-top: 22%;
+    }
 }
 
 .header h1 {
@@ -887,7 +905,8 @@ screen and (-ms-high-contrast: none) {
     font-size: 40px !important;
     line-height: 3rem;
     font-weight: 700 !important;
-    font-size: 3.5rem !important;
+    /* font-size: clamp(3.5rem, 20%, 2.5rem)!important; */
+    font-size: clamp(2rem, -1.5rem + 8vw, 3.5rem)!important;
 }
 
 .text-container span {
@@ -1835,6 +1854,7 @@ a:hover.back-to-top {
     } */
     .header .text-container {
         margin-bottom: 4rem;
+        margin-top: 30%;
     }
     .header h1 {
         font-size: 3.5rem;
@@ -1962,7 +1982,7 @@ a:hover.back-to-top {
         text-align: left;
     }
     .header .text-container {
-        margin-top: 4rem;
+        margin-top: 50%;
         margin-bottom: 0;
     }
     .header .image-container {
@@ -2246,6 +2266,21 @@ a:hover.back-to-top {
     }
     .text-container h1 {
         line-height: normal;
+    }
+}
+
+@media(max-width: 430px) {
+    .header-content .row {
+        height: auto;
+    }
+    .header .text-container {
+        margin-top: 50px;
+    }
+    .banner-title-position {
+        left: 0;
+    }
+    .p-large {
+        font: 400 0.9rem/1.75rem "Lato", sans-serif;
     }
 }
 
