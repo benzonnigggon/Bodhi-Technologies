@@ -389,6 +389,9 @@ screen and (-ms-high-contrast: none) {
     .header .header-content img {
         height: 100vh;
     }
+    .header .header-content img::after {
+        background: rgba(0, 0, 0, 0.5);
+    }
 }
 
 .header .header .form-control-submit-button {
