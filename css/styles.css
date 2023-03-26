@@ -780,7 +780,7 @@ screen and (-ms-high-contrast: none) {
 
 .navbar-custom .nav-item .nav-link {
     padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-    color: rgb(114 116 47);
+    color: rgb(152 213 92);
     opacity: 1;
     font-size: 16.5px;
     text-decoration: none;
@@ -789,7 +789,7 @@ screen and (-ms-high-contrast: none) {
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-    color: #FF5959;
+    color: #777835;
     opacity: 1;
 }
 
@@ -1958,7 +1958,7 @@ a:hover.back-to-top {
 }
 
 .top-nav-collapse .nav-item .nav-link {
-    color:
+    color: rgb(129 130 66);
 }
 
 .navbar-custom .nav-item .nav-link {
@@ -1978,7 +1978,7 @@ a:hover.back-to-top {
 
 .navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 .navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-    color: #ff5959;
+    color: #384455;
 }
 
 .navbar-custom .dropdown-menu {
