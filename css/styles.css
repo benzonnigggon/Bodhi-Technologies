@@ -394,6 +394,10 @@ screen and (-ms-high-contrast: none) {
     }
 }
 
+.banner-overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
 .header .header .form-control-submit-button {
     display: inline-block;
     width: 100%;
@@ -1704,7 +1708,6 @@ a:hover.back-to-top {
 .ex-header {
     padding-top: 8rem;
     padding-bottom: 5rem;
-    background-color: #dbffb4;
     text-align: center;
 }
 
