@@ -2453,8 +2453,20 @@ a:hover.back-to-top {
     bottom: 10px;
     right: 10px;
 }
-.whatsapp img {
-    width: 100%;
+.whatsapp a {
+    display: flex;
+}
+.whatsapp a:hover {
+    text-decoration: none;
+}
+.whatsapp .fab {
+    font-size: 55px;
+    margin: auto;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    color: green;
+}
+
 }
 
 /* end of min-width width 1200px */
