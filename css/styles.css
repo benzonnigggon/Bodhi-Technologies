@@ -2408,8 +2408,20 @@ a:hover.back-to-top {
 }
 @media(max-width: 767px) {
     .header-content .row {
-        height: 65vh;
+        height: auto;
         align-items: end;
+    }
+    
+    .header-content {
+        margin-top: 13%;
+    }
+    
+    .header .text-container {
+        margin-top: 20%;
+    }
+    
+    .banner-title-position {
+        left: 5%;
     }
     
     .text-container h1 {
@@ -2466,7 +2478,3 @@ a:hover.back-to-top {
     align-content: flex-start;
     color: green;
 }
-
-}
-
-/* end of min-width width 1200px */
